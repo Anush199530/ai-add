@@ -25,6 +25,7 @@ form {
   border-radius: 9px;
   display: flex;
   margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 .instructions {
@@ -41,7 +42,7 @@ form {
   background-color: #af5740;
   color: white;
   width: 140px;
-  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
   font-size: 16px;
   border: none;
   border-radius: 10px;
