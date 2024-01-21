@@ -14,19 +14,24 @@
         <h1>Welcome to this amazing AI recepy generator</h1>
       </header>
       <main>
-        <form id="recepy-generator-form">
-          <input
-            type="text"
-            placeholder="Enter the products that you want to use"
-            autofocus
-            required
-            autocomplete="off"
-            class="instructions"
-            id="user-ingredients"
-          />
-          <input type="submit" class="submit-button" />
-        </form>
-        <div class="recepy-instruction" id="recepy-ingredients"></div>
+        <div class="from-container">
+          <form id="recepy-generator-form">
+            <input
+              type="text"
+              placeholder="Enter the products that you want to use"
+              autofocus
+              required
+              autocomplete="off"
+              class="instructions"
+              id="user-ingredients"
+            />
+            <input type="submit" class="submit-button" />
+          </form>
+          <div class="ingredients-examples">
+            i.e: chocolate, banana, cheese, etc..
+          </div>
+        </div>
+        <div class="recepy-instruction hidden" id="recepy-ingredients"></div>
       </main>
       <footer>
         This project was coded by Anush Arutunian and is
