@@ -7,34 +7,39 @@
   <title>AI recepy generator</title>
 
   <body>
-    <header>
-      <h1>Welcome to the this amazing AI recepy generator</h1>
-    </header>
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the products that you want to use"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The recepy
-        <br />
-        The recepy
-      </div>
-    </main>
-    <footer>
-      This project was coded by Anush Arutunian and is
-      <a href="https://github.com/Anush199530/ai-add" target="_blank">
-        open-sourced on github</a
-      >
-      and is
-      <a href="https://ai-add.vercel.app/" target="_blank">hosted on Vercel</a>
-    </footer>
+    <div class="container">
+      <header>
+        <h1>Welcome to this amazing AI recepy generator</h1>
+      </header>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the products that you want to use"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="recepy-instruction">
+          The recepy
+          <br />
+          The recepy
+        </div>
+      </main>
+      <footer>
+        This project was coded by Anush Arutunian and is
+        <a href="https://github.com/Anush199530/ai-add" target="_blank">
+          open-sourced on github</a
+        >
+        and is
+        <a href="https://ai-add.vercel.app/" target="_blank"
+          >hosted on Vercel</a
+        >
+      </footer>
+    </div>
 
     <script src="src/index.js"></script>
   </body>
