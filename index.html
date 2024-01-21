@@ -4,6 +4,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="with=device-width,initial-scale=1.0" />
   <link rel="stylesheet" href="src/index.css" />
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <title>AI recepy generator</title>
 
   <body>
@@ -12,7 +13,7 @@
         <h1>Welcome to this amazing AI recepy generator</h1>
       </header>
       <main>
-        <form>
+        <form id="recepy-generator-form">
           <input
             type="text"
             placeholder="Enter the products that you want to use"
@@ -23,11 +24,7 @@
           />
           <input type="submit" class="submit-button" />
         </form>
-        <div class="recepy-instruction">
-          The recepy
-          <br />
-          The recepy
-        </div>
+        <div class="recepy-instruction" id="recepy-ingredients"></div>
       </main>
       <footer>
         This project was coded by Anush Arutunian and is
